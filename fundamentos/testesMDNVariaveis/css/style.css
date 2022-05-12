@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+/* posiona conteudo ao centro */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    min-height: 100vh;    
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(130, 25, 228);
+    border-radius: 5px;
+}
