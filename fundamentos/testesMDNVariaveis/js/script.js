@@ -1,18 +1,8 @@
-const buttonA = document.querySelector("#button_A");
-const headingA = document.querySelector("#heading_A");
+// Rubens: 19/05/2022
+// Soma de dois numeros
+var num1 = Number(prompt('Informe o 1º numero: '))
+var num2 = Number(prompt('Informe o 2º numero: '))
 
-// Exemplo usando variaveis
-// buttonA.onClick = () => {
-//     const name = prompt('What is your name?');
-//     alert(`Hello ${name} nise to see you!`);
-//     headingA.textContent = `Welcome ${name}`;
-//     }
+var soma = num1 + num2
 
-// exemplo sem o uso de variáveis, nesse caso ao executar
-//percebemos que temos que pedir para o usuário digitar várias
-// vezes a nome
-buttonA.onclick = () => {
-  alert(`Hello ${prompt("What is your name?")}, nise to see you!`);
-  headingA.textContent = `Welcome  ${prompt("What is your name ?")}`;
-};
-
+alert(`Resultado: ${soma}`)
