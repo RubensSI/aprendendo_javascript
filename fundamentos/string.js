@@ -12,7 +12,8 @@ console.log(escola.charCodeAt(3))
 // retorna o índece de um caractere passado como parâmetro
 console.log(escola.indexOf('C'))
 
-// retorna a string apartir iniciando após o valor passado como parâmetro
+// retorna a string iniciando apartir  do valor passado como parâmetro, até o fim da string
+console.log('Substring')
 console.log(escola.substring(1))
 
 // retorna um trecho da uma string apartir dos valores passado como parâmetro
@@ -23,7 +24,6 @@ console.log(escola.substring(1, 3))
 let nomes = 'Rubens, Elise, Mariane'
 let lista = nomes.split(',')
 for (let i in lista) {
-  console.log(lista[i].replace(" ", ""))
+  console.log(lista[i].replace(' ', ''))
 }
-
 
