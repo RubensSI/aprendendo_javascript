@@ -27,3 +27,5 @@ for (let i in lista) {
   console.log(lista[i].replace(' ', ''))
 }
 
+// split retorna uma lisa contendo valore sepaados por vígula
+console.log('Maria, Predro, Ana'.split(','))
