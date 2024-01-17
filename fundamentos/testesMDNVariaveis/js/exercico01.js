@@ -1,6 +1,6 @@
 // Rubens: 19/05/2022
 // Algoritimo que calcule a média aritimética entre quatro notas
-// fornacidas pelo usuário
+// fornecidas pelo usuário
 
 const notas = new Array(4);
 let acum = 0;
